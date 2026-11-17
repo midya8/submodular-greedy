@@ -1,6 +1,6 @@
 # Submodular greedy
 
-SubmodLab compares greedy subset selection with exhaustive optima on small supplied objectives. Inspect every marginal gain, optimum tie and assumption needed for the bound. Python has no runtime dependencies; the browser uses independent BigInt JavaScript. No learned model or API call.
+This implementation compares greedy subset selection with exhaustive optima on small supplied objectives. Inspect every marginal gain, optimum tie and assumption needed for the bound. Python has no runtime dependencies; the browser uses independent BigInt JavaScript. No learned model or API call.
 
 [Live inspector](https://midya8.github.io/submodular-greedy/) · [Method and sources](METHOD.md)
 
