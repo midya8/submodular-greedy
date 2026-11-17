@@ -1,8 +1,8 @@
-# SubmodLab
+# Submodular greedy
 
 SubmodLab compares greedy subset selection with exhaustive optima on small supplied objectives. Inspect every marginal gain, optimum tie and assumption needed for the bound. Python has no runtime dependencies; the browser uses independent BigInt JavaScript. No learned model or API call.
 
-[Live inspector](https://midya8.github.io/submodlab/) · [Method and sources](METHOD.md)
+[Live inspector](https://midya8.github.io/submodular-greedy/) · [Method and sources](METHOD.md)
 
 ## Choose a calculation
 
@@ -15,7 +15,7 @@ for that fractional point or preserve its marginals.
 
 ## Product distributions and cardinality rounding
 
-[Rounding inspector](https://midya8.github.io/submodlab/rounding.html) · [Rounding method](ROUNDING.md)
+[Rounding inspector](https://midya8.github.io/submodular-greedy/rounding.html) · [Rounding method](ROUNDING.md)
 
 Independent inclusion probabilities do not enforce a hard budget. The retained [1/2,1/2] duplicate-coverage control has expected count 1, but exceeds k=1 with probability 1/4. Exact deterministic pair rounding raises expected value 3/4 to a fixed-size singleton of value 1. Full product masses, excluded-context gradient/Hessian terms and both endpoints of every swap are retained. Submodularity and probability sum exactly k are required; signed/nonmonotone submodular objectives still work. Synergy and wrong-sum controls refuse rounding. This does not optimize the supplied fractional point or preserve its marginals.
 
